@@ -1,0 +1,1 @@
+echo -n "alert('Hello, world.');" | openssl dgst -sha256 -binary | openssl enc -base64
