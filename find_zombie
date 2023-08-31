@@ -1,0 +1,3 @@
+ps -ef | grep defunct
+dmesg -T | egrep -i 'killed process'
+grep -i 'killed process' /var/log/messages
